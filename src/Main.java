@@ -12,6 +12,7 @@ public class Main {
             processPlayerActions(players, matches);
 
             writeResults("src/result.txt", players, matches);
+            System.out.println("Data processed successfully! \nCheck the results.txt file!");
         } catch (IOException e) {
             e.printStackTrace();
         }
